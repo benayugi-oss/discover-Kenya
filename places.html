@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Kenya | Places</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Discover Kenya</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="places.html" class="active">Places</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="page-banner">
+      <h2>Places to Visit</h2>
+      <p>Here are some of the most famous and beautiful places in Kenya.</p>
+    </section>
+
+    <section class="card-section">
+      <div class="card">
+        <h3>Maasai Mara</h3>
+        <p>
+          Maasai Mara is one of the most famous safari destinations in the world,
+          known for lions, elephants, and the Great Migration.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Nairobi</h3>
+        <p>
+          Nairobi is Kenya’s capital city and a center for business, culture, and history.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Mombasa</h3>
+        <p>
+          Mombasa is a coastal city known for beaches, history, and Swahili culture.
+        </p>
+      </div>
+    </section>
+
+    <section class="interactive-box">
+      <h3>Which place would you visit?</h3>
+      <input type="text" id="place-input" placeholder="Type a place name" />
+      <button onclick="respondToPlace()">Submit</button>
+      <p id="place-response"></p>
+    </section>
+
+    <section class="link-box">
+      <p>
+        Learn more about Kenya from this external resource:
+        <a href="https://en.wikipedia.org/wiki/Kenya" target="_blank">Read more here</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Discover Kenya Website Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
