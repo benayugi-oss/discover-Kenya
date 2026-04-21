@@ -17,7 +17,7 @@ body {
   line-height: 1.6;
   background:
     linear-gradient(rgba(255, 244, 220, 0.72), rgba(255, 228, 181, 0.72)),
-    url("kenya3.jpeg");
+    url("kenya-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
