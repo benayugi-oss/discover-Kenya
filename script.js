@@ -2,7 +2,7 @@ function changeWelcomeText() {
   const welcomeText = document.getElementById("welcome-text");
 
   if (welcomeText) {
-    welcomeText.textContent = "Karibu Kenya! Explore the beauty, culture, and adventure.";
+    welcomeText.textContent = "Karibu Kenya! Kweli utapenda nchi yetu!";
   }
 }
 
