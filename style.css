@@ -114,7 +114,7 @@ main {
   min-height: 100vh;
   background:
     linear-gradient(rgba(20, 20, 20, 0.35), rgba(20, 20, 20, 0.45)),
-    url("kenya2.jpeg");
+  url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2000&q=100");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
